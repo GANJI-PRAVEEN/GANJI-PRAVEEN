@@ -1,3 +1,78 @@
+
+"use client"
+
+import { OrbitingCircles } from "@/components/ui/orbiting-circles"
+
+export function TechStackOrbits() {
+  return (
+    <div className="relative flex h-[600px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background">
+      {/* Center content */}
+      <div className="text-center space-y-4 z-10">
+        <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          Full Stack Developer
+        </h2>
+        <p className="text-muted-foreground max-w-md">
+          Building modern web applications with cutting-edge technologies
+        </p>
+      </div>
+
+      {/* React */}
+      <OrbitingCircles className="size-[50px] border-none bg-blue-500/10" duration={20} radius={120}>
+        <div className="flex items-center justify-center w-full h-full">
+          <span className="text-blue-500 font-bold text-sm">React</span>
+        </div>
+      </OrbitingCircles>
+
+      {/* TypeScript */}
+      <OrbitingCircles className="size-[45px] border-none bg-blue-600/10" duration={20} delay={10} radius={120}>
+        <div className="flex items-center justify-center w-full h-full">
+          <span className="text-blue-600 font-bold text-xs">TS</span>
+        </div>
+      </OrbitingCircles>
+
+      {/* Next.js */}
+      <OrbitingCircles
+        className="size-[55px] border-none bg-black/10 dark:bg-white/10"
+        radius={180}
+        duration={25}
+        reverse
+      >
+        <div className="flex items-center justify-center w-full h-full">
+          <span className="text-black dark:text-white font-bold text-sm">Next</span>
+        </div>
+      </OrbitingCircles>
+
+      {/* Node.js */}
+      <OrbitingCircles
+        className="size-[48px] border-none bg-green-500/10"
+        radius={180}
+        duration={25}
+        delay={12}
+        reverse
+      >
+        <div className="flex items-center justify-center w-full h-full">
+          <span className="text-green-500 font-bold text-sm">Node</span>
+        </div>
+      </OrbitingCircles>
+
+      {/* Tailwind */}
+      <OrbitingCircles className="size-[42px] border-none bg-cyan-500/10" radius={240} duration={30}>
+        <div className="flex items-center justify-center w-full h-full">
+          <span className="text-cyan-500 font-bold text-xs">CSS</span>
+        </div>
+      </OrbitingCircles>
+
+      {/* Database */}
+      <OrbitingCircles className="size-[46px] border-none bg-purple-500/10" radius={240} duration={30} delay={15}>
+        <div className="flex items-center justify-center w-full h-full">
+          <span className="text-purple-500 font-bold text-xs">DB</span>
+        </div>
+      </OrbitingCircles>
+    </div>
+  )
+}
+
+
 [![MasterHead](https://contentstatic.techgig.com/photo/85891309/4-super-useful-tips-to-ace-competitive-programming.jpg?61855)]
 <h1 align="center">Hi 👋, I'm Ganji Praveen</h1>
 <h3 align="center">A passionate Competitive Programming from India</h3>
