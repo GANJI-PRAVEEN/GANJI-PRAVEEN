@@ -1,4 +1,7 @@
-[![MasterHead](https://contentstatic.techgig.com/photo/85891309/4-super-useful-tips-to-ace-competitive-programming.jpg?61855)]
+[!
+<img src="https://your-username.github.io/commits-grid-demo/hello.gif" alt="Hello in GitHub style" width="400"/>
+
+[MasterHead](https://contentstatic.techgig.com/photo/85891309/4-super-useful-tips-to-ace-competitive-programming.jpg?61855)]
 <h1 align="center">Hi 👋, I'm Ganji Praveen</h1>
 <h3 align="center">A passionate Competitive Programming from India</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
