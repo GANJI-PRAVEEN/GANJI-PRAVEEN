@@ -2,44 +2,36 @@
 
 <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Orbit paths -->
-  <circle cx="150" cy="150" r="60" fill="none" stroke="#e5e7eb" stroke-width="1" opacity="0.3"/>
-  <circle cx="150" cy="150" r="90" fill="none" stroke="#e5e7eb" stroke-width="1" opacity="0.3"/>
+  <circle cx="150" cy="150" r="60" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+  <circle cx="150" cy="150" r="90" fill="none" stroke="#e5e7eb" stroke-width="1"/>
   
   <!-- Center -->
-  <circle cx="150" cy="150" r="25" fill="#3b82f6" opacity="0.1"/>
+  <circle cx="150" cy="150" r="25" fill="#3b82f6" opacity="0.2"/>
   <text x="150" y="155" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#1f2937">Skills</text>
   
-  <!-- React -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" 
-                      values="0 150 150;360 150 150" dur="8s" repeatCount="indefinite"/>
-    <circle cx="150" cy="90" r="12" fill="#61dafb"/>
-    <text x="150" y="95" text-anchor="middle" font-size="8" fill="white" font-weight="bold">R</text>
-  </g>
+  <!-- React (top) -->
+  <circle cx="150" cy="90" r="12" fill="#61dafb"/>
+  <text x="150" y="95" text-anchor="middle" font-size="8" fill="white" font-weight="bold">React</text>
   
-  <!-- TypeScript -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" 
-                      values="120 150 150;480 150 150" dur="8s" repeatCount="indefinite"/>
-    <circle cx="150" cy="90" r="12" fill="#3178c6"/>
-    <text x="150" y="95" text-anchor="middle" font-size="7" fill="white" font-weight="bold">TS</text>
-  </g>
+  <!-- TypeScript (right) -->
+  <circle cx="210" cy="150" r="12" fill="#3178c6"/>
+  <text x="210" y="155" text-anchor="middle" font-size="8" fill="white" font-weight="bold">TS</text>
   
-  <!-- Next.js -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" 
-                      values="0 150 150;-360 150 150" dur="12s" repeatCount="indefinite"/>
-    <circle cx="150" cy="60" r="15" fill="#000000"/>
-    <text x="150" y="65" text-anchor="middle" font-size="7" fill="white" font-weight="bold">Next</text>
-  </g>
+  <!-- Next.js (bottom) -->
+  <circle cx="150" cy="210" r="12" fill="#000000"/>
+  <text x="150" y="215" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Next</text>
   
-  <!-- Node.js -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" 
-                      values="180 150 150;-180 150 150" dur="12s" repeatCount="indefinite"/>
-    <circle cx="150" cy="60" r="15" fill="#339933"/>
-    <text x="150" y="65" text-anchor="middle" font-size="7" fill="white" font-weight="bold">Node</text>
-  </g>
+  <!-- Node.js (left) -->
+  <circle cx="90" cy="150" r="12" fill="#339933"/>
+  <text x="90" y="155" text-anchor="middle" font-size="8" fill="white" font-weight="bold">Node</text>
+  
+  <!-- CSS (outer ring) -->
+  <circle cx="150" cy="60" r="15" fill="#06b6d4"/>
+  <text x="150" y="65" text-anchor="middle" font-size="9" fill="white" font-weight="bold">CSS</text>
+  
+  <!-- Database (outer ring) -->
+  <circle cx="240" cy="150" r="15" fill="#8b5cf6"/>
+  <text x="240" y="155" text-anchor="middle" font-size="9" fill="white" font-weight="bold">DB</text>
 </svg>
 
 </div>
